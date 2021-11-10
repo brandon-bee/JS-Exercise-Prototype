@@ -105,10 +105,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - the value of 'this' when it hasn't been given any context is the window or console object.
+  2. Implicit Binding - when a function is called with a dot, look to the left of the dot - that object is what 'this' refers to. 
+  3. New Binding - new is a keyword used with constructor functions. When new is used, 'this' refers to the new object being created.
+  4. Explicit Binding - this is when we use JavaScript methods (call, apply, bind) to explicitly define 'this' ourselves.
 */
 
 
